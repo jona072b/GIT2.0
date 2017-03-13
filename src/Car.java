@@ -9,7 +9,13 @@ public class Car {
         System.out.println("Now it is a car");
     }
 
+
     public Car() {
         System.out.println("This is not a car");
     }
+
+    public String getName() {
+        return name;
+    }
+
 }
